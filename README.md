@@ -9,7 +9,7 @@ R Software, version 4.3.0
 ## Instructions to use data
 1."Time_serie_test_data.csv" is the fake dataset contains hospital admissions for total major cardiovascular events, daily mean temperautre and ambient air polllution at lag01 from 5 cities during 2017-01-01-2017-12-31.
 2."Example_panel_data.csv" is the fake dataset contains repeated personal monitoring data of both black carbon and all lead ST-segment depression events recorded at 5-minute interval.
-
+3."BC_by_temperature_result.csv" is the data used to calculate attributable numbers and fractions, which contains effect estimation of hospital admission risks associated with black carbon exposure in each temperature stratum.
 ## Instructions to use code
 Necessary packages are provided in the codes, please first install the packages.
 The shared codes are used to generate the main analysis of the paper, including the modification by temperature on the associations between short-term exposure to black carbon and hospital admissions in both time-series study and panel study, and the code for calculating attributable number and fracion of black carbon exposure in each temperature stratum.
